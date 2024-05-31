@@ -1,4 +1,4 @@
-# Save the Ocean Pygame
+## Save the Ocean Pygame
 Welcome to our Save the Ocean Pygame library! Here you find all the files needed to play the game. Please ensure you have Pygame installed before attempting to run the game in python. 
 
 # What is it about? 
