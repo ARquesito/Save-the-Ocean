@@ -295,6 +295,9 @@ while running:
                     playerX_change = 4
             elif event.key == pygame.K_p:
                     pause()
+            elif event.key == pygame.K_q:
+                pygame.quit()
+                sys.exit()
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                     playerX_change = 0
@@ -345,6 +348,9 @@ while running:
                 time.sleep(3)
             while option:
                 for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        pygame.quit()
+                        sys.exit()
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_y:
                             option = False
